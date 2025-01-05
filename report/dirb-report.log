@@ -1,0 +1,40 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: /home/kali/Desktop/dirb-report.log
+START_TIME: Sun May 12 07:11:40 2024
+URL_BASE: http://10.0.2.4/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.0.2.4/ ----
+==> DIRECTORY: http://10.0.2.4/css/
+==> DIRECTORY: http://10.0.2.4/img/
++ http://10.0.2.4/index.php (CODE:200|SIZE:5812)
+==> DIRECTORY: http://10.0.2.4/js/
++ http://10.0.2.4/server-status (CODE:403|SIZE:273)
+==> DIRECTORY: http://10.0.2.4/uploads/
+==> DIRECTORY: http://10.0.2.4/vendor/
+
+---- Entering directory: http://10.0.2.4/css/ ----
+
+---- Entering directory: http://10.0.2.4/img/ ----
+
+---- Entering directory: http://10.0.2.4/js/ ----
+
+---- Entering directory: http://10.0.2.4/uploads/ ----
+
+---- Entering directory: http://10.0.2.4/vendor/ ----
+==> DIRECTORY: http://10.0.2.4/vendor/jquery/
+
+---- Entering directory: http://10.0.2.4/vendor/jquery/ ----
+
+-----------------
+END_TIME: Sun May 12 07:11:54 2024
+DOWNLOADED: 32284 - FOUND: 2

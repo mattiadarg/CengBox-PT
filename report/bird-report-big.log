@@ -1,0 +1,196 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: /home/kali/Desktop/bird-report-big.log
+START_TIME: Sun May 12 12:23:20 2024
+URL_BASE: http://10.0.2.4/
+WORDLIST_FILES: /usr/share/wordlists/dirb/big.txt
+
+-----------------
+
+GENERATED WORDS: 20458
+
+---- Scanning URL: http://10.0.2.4/ ----
+==> DIRECTORY: http://10.0.2.4/css/
+==> DIRECTORY: http://10.0.2.4/img/
+==> DIRECTORY: http://10.0.2.4/js/
+==> DIRECTORY: http://10.0.2.4/masteradmin/
++ http://10.0.2.4/server-status (CODE:403|SIZE:273)
+==> DIRECTORY: http://10.0.2.4/uploads/
+==> DIRECTORY: http://10.0.2.4/vendor/
+
+---- Entering directory: http://10.0.2.4/css/ ----
+
+---- Entering directory: http://10.0.2.4/img/ ----
+
+---- Entering directory: http://10.0.2.4/js/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/css/
+==> DIRECTORY: http://10.0.2.4/masteradmin/fonts/
+==> DIRECTORY: http://10.0.2.4/masteradmin/images/
+==> DIRECTORY: http://10.0.2.4/masteradmin/js/
+==> DIRECTORY: http://10.0.2.4/masteradmin/vendor/
+
+---- Entering directory: http://10.0.2.4/uploads/ ----
+
+---- Entering directory: http://10.0.2.4/vendor/ ----
+==> DIRECTORY: http://10.0.2.4/vendor/jquery/
+
+---- Entering directory: http://10.0.2.4/masteradmin/css/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/fonts/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/images/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/images/icons/
+
+---- Entering directory: http://10.0.2.4/masteradmin/js/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/vendor/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/vendor/jquery/
+
+---- Entering directory: http://10.0.2.4/vendor/jquery/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/images/icons/ ----
++ http://10.0.2.4/masteradmin/images/icons/favicon.ico (CODE:200|SIZE:32038)
+
+---- Entering directory: http://10.0.2.4/masteradmin/vendor/jquery/ ----
+
+-----------------
+END_TIME: Sun May 12 12:25:54 2024
+DOWNLOADED: 306870 - FOUND: 2
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: /home/kali/Desktop/bird-report-big.log
+START_TIME: Sun May 12 12:29:54 2024
+URL_BASE: http://10.0.2.4/masteradmin/
+WORDLIST_FILES: /usr/share/wordlists/dirb/big.txt
+OPTION: Interactive Recursion
+EXTENSIONS_LIST: (.php,) | (.php) [NUM = 1]
+
+-----------------
+
+GENERATED WORDS: 20458
+
+---- Scanning URL: http://10.0.2.4/masteradmin/ ----
++ http://10.0.2.4/masteradmin/db.php (CODE:200|SIZE:0)
++ http://10.0.2.4/masteradmin/login.php (CODE:200|SIZE:5137)
++ http://10.0.2.4/masteradmin/upload.php (CODE:200|SIZE:1440)
+
+-----------------
+END_TIME: Sun May 12 12:30:12 2024
+DOWNLOADED: 20458 - FOUND: 3
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: /home/kali/Desktop/bird-report-big.log
+START_TIME: Sun May 12 12:31:15 2024
+URL_BASE: http://10.0.2.4/
+WORDLIST_FILES: /usr/share/wordlists/dirb/big.txt
+OPTION: Interactive Recursion
+
+-----------------
+
+GENERATED WORDS: 20458
+
+---- Scanning URL: http://10.0.2.4/ ----
+==> DIRECTORY: http://10.0.2.4/css/
+==> DIRECTORY: http://10.0.2.4/img/
+==> DIRECTORY: http://10.0.2.4/js/
+==> DIRECTORY: http://10.0.2.4/masteradmin/
++ http://10.0.2.4/server-status (CODE:403|SIZE:273)
+==> DIRECTORY: http://10.0.2.4/uploads/
+==> DIRECTORY: http://10.0.2.4/vendor/
+
+---- Entering directory: http://10.0.2.4/css/ ----
+
+---- Entering directory: http://10.0.2.4/img/ ----
+
+---- Entering directory: http://10.0.2.4/js/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/css/
+==> DIRECTORY: http://10.0.2.4/masteradmin/fonts/
+==> DIRECTORY: http://10.0.2.4/masteradmin/images/
+==> DIRECTORY: http://10.0.2.4/masteradmin/js/
+==> DIRECTORY: http://10.0.2.4/masteradmin/vendor/
+
+---- Entering directory: http://10.0.2.4/uploads/ ----
+
+---- Entering directory: http://10.0.2.4/vendor/ ----
+==> DIRECTORY: http://10.0.2.4/vendor/jquery/
+
+---- Entering directory: http://10.0.2.4/masteradmin/css/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/fonts/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/images/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/images/icons/
+
+---- Entering directory: http://10.0.2.4/masteradmin/js/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/vendor/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/vendor/jquery/
+
+---- Entering directory: http://10.0.2.4/vendor/jquery/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/images/icons/ ----
++ http://10.0.2.4/masteradmin/images/icons/favicon.ico (CODE:200|SIZE:32038)
+
+---- Entering directory: http://10.0.2.4/masteradmin/vendor/jquery/ ----
+
+-----------------
+END_TIME: Sun May 12 12:34:36 2024
+DOWNLOADED: 306870 - FOUND: 2
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: /home/kali/Desktop/bird-report-big.log
+START_TIME: Sun May 12 12:35:50 2024
+URL_BASE: http://10.0.2.4/masteradmin/
+WORDLIST_FILES: /usr/share/wordlists/dirb/big.txt
+
+-----------------
+
+GENERATED WORDS: 20458
+
+---- Scanning URL: http://10.0.2.4/masteradmin/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/css/
+==> DIRECTORY: http://10.0.2.4/masteradmin/fonts/
+==> DIRECTORY: http://10.0.2.4/masteradmin/images/
+==> DIRECTORY: http://10.0.2.4/masteradmin/js/
+==> DIRECTORY: http://10.0.2.4/masteradmin/vendor/
+
+---- Entering directory: http://10.0.2.4/masteradmin/css/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/fonts/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/images/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/images/icons/
+
+---- Entering directory: http://10.0.2.4/masteradmin/js/ ----
+
+---- Entering directory: http://10.0.2.4/masteradmin/vendor/ ----
+==> DIRECTORY: http://10.0.2.4/masteradmin/vendor/jquery/
+
+---- Entering directory: http://10.0.2.4/masteradmin/images/icons/ ----
++ http://10.0.2.4/masteradmin/images/icons/favicon.ico (CODE:200|SIZE:32038)
+
+---- Entering directory: http://10.0.2.4/masteradmin/vendor/jquery/ ----
+
+-----------------
+END_TIME: Sun May 12 12:37:17 2024
+DOWNLOADED: 163664 - FOUND: 1
